@@ -1,0 +1,75 @@
+{
+  "name": "magicdown",
+  "version": "0.1.0",
+  "description": "Better rendering of markdown content in React.",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "component",
+    "markdown"
+  ],
+  "author": "Amery2010",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/u14app/magicdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/u14app/magicdown/issues"
+  },
+  "homepage": "https://github.com/u14app/magicdown",
+  "scripts": {
+    "build": "tsc && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "copy-to-clipboard": "^3.3.3",
+    "lucide-react": "^0.471.0",
+    "radash": "^12.1.0",
+    "react-markdown": "^9.0.3",
+    "rehype-highlight": "^7.0.1",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-images": "^4.1.0",
+    "remark-math": "^6.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.3",
+    "@eslint/eslintrc": "^3.2.0",
+    "@laynezh/vite-plugin-lib-assets": "^1.0.0",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-onboarding": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/builder-vite": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "storybook": "^8.4.7",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}

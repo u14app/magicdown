@@ -1,0 +1,12 @@
+node_modules
+src
+tsconfig.json
+vite.config.ts
+tailwind.config.ts
+postcss.config.ts
+package-lock.json
+.prettierrc
+eslint.config.mjs
+.gitignore
+.vscode
+.storybook
